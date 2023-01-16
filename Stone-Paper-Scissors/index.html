@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Stone Paper or Scissors</title>
+</head>
+<body>
+    <main class="game-screen">
+        <nav class="menu-bar">
+            <h1>choose your hand</h1>
+            <div class="hand-choose">
+                <div class="select-hand-01 select-hands">
+                    <button id="stone">Select</button>
+                    <img src="img/stone.png" alt="Stone">
+                </div>
+                <div class="select-hand-02 select-hands">
+                    <button id="paper">Select</button>
+                    <img src="img/paper.png" alt="Paper">
+                </div>
+                <div class="select-hand-03 select-hands">
+                    <button id="scissors">Select</button>
+                    <img src="img/scissors.png" alt="Scissors">
+                </div>
+            </div>
+        </nav>    
+        <div class="result-screen">
+            <div id="text-result" class="who-win"></div>
+            <div class="the-duel">
+                <div id="player-1-img" class="player-1"></div>
+                <div class="vs-separator">vs</div>
+                <div id="player-2-img" class="player-2"></div>
+            </div>
+        </div>
+    </main>
+    <script src="script/script.js"></script>
+</body>
+</html>
